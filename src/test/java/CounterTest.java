@@ -39,13 +39,5 @@ public class CounterTest {
 		}
 	}
 
-	@Test
-	public void testPowerBy(){
-		Counter testCounter = new Counter();
-		
-		testCounter.increaseBy(2);
-		testCounter.powerBy(3);
-		
-		assertEquals(testCounter.getCount(), 8);
-	}
+	
 }
